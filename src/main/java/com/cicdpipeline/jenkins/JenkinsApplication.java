@@ -11,6 +11,8 @@ public class JenkinsApplication {
 		SpringApplication.run(JenkinsApplication.class, args);
 		System.out.println("JenkinsApplication started");
 		System.out.println("now i will commit from IDE");
+		System.out.println("Changes done from GIT by another developer");
+
 	}
 
 }
